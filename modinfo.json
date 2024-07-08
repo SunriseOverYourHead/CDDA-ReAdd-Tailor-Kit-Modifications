@@ -8,7 +8,7 @@
       "description": "Readds clothing customization options for tailor kits.",
       "version": ".G Stable",
       "category": "items",
-      "dependencies": [ "dda" ]
+      "dependencies": [ "dda", "magiclysm" ]
     }
   ]
   

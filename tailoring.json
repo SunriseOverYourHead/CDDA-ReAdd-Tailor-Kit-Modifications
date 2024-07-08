@@ -20,16 +20,49 @@
           "kevlar",
           "kevlar_layered",
           "neoprene",
-          "gutskin"
+          "gutskin",
+          "black_dragon_hide",
+          "demon_chitin"
         ],
         "skill": "tailor",
         "tool_quality": 1,
         "cost_scaling": 0.1,
         "move_cost": 800
-    },
-    {
+      },
+      {
         "type": "sew_advanced",
         "materials": [
+          "cotton",
+          "leather",
+          "lycra",
+          "nylon",
+          "wool",
+          "fur",
+          "faux_fur",
+          "nomex",
+          "kevlar",
+          "neoprene",
+          "gutskin",
+          "plastic",
+          "parabolan_wool",
+          "kevlar_rigid"
+        ],
+        "skill": "tailor",
+        "clothing_mods": [ "leather_padded", "steel_padded", "kevlar_padded", "furred", "wooled" ]
+      }
+    ]
+  },
+
+    {
+        "id": "mtailors_kit",
+        "copy-from": "mtailors_kit",
+        "type": "TOOL",
+        "name": "enchanted tailor's kit",
+        "use_action": [
+          {
+            "type": "repair_item",
+            "item_action_type": "repair_fabric",
+            "materials": [
             "cotton",
             "leather",
             "lycra",
@@ -39,14 +72,38 @@
             "faux_fur",
             "nomex",
             "kevlar",
+            "kevlar_layered",
             "neoprene",
             "gutskin",
-            "plastic",
-            "kevlar_rigid"
-        ],
-        "skill": "tailor",
-        "clothing_mods": [ "leather_padded", "steel_padded", "kevlar_padded", "furred", "wooled" ]
+            "black_dragon_hide",
+            "demon_chitin"
+            ],
+            "skill": "tailor",
+            "tool_quality": 1,
+            "cost_scaling": 0.1,
+            "move_cost": 500
+        },
+        {
+            "type": "sew_advanced",
+            "materials": [
+              "cotton",
+              "leather",
+              "lycra",
+              "nylon",
+              "wool",
+              "fur",
+              "faux_fur",
+              "nomex",
+              "kevlar",
+              "neoprene",
+              "gutskin",
+              "plastic",
+              "parabolan_wool",
+              "kevlar_rigid"
+            ],
+            "skill": "tailor",
+            "clothing_mods": [ "leather_padded", "steel_padded", "kevlar_padded", "furred", "wooled" ]
+          }
+        ]
     }
     ]
-}
-]
