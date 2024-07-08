@@ -1,0 +1,14 @@
+[
+    {
+      "type": "MOD_INFO",
+      "ident": "TailorKits-Readd-Customization",
+      "name": "Readd Clothing Customization for TailorKits",
+      "authors": [ "SunriseOverYourHead" ],
+      "maintainers": [ "SunriseOverYourHead" ],
+      "description": "Readds clothing customization options for tailor kits.",
+      "version": ".G Stable",
+      "category": "items",
+      "dependencies": [ "dda" ]
+    }
+  ]
+  
