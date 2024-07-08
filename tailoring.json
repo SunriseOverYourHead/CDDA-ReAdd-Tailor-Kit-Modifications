@@ -2,6 +2,8 @@
 {
     "id": "tailors_kit",
     "copy-from": "tailors_kit",
+    "type": "TOOL",
+    "name": "tailor's kit",
     "use_action": [
       {
         "type": "repair_item",
